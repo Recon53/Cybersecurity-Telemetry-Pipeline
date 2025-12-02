@@ -12,6 +12,7 @@ The lab consists of:
 Although the author is retired and not pursuing employment, this environment is designed with professional rigor and can be reused for teaching, mentoring, or research.
 
 ## Architecture
+![Architecture Diagram](Architecture%20Diagram.png)
 
 High-level event flow:
 
@@ -23,6 +24,11 @@ High-level event flow:
                 → [ Ubuntu VM / Docker / Splunk Enterprise ]
                       → Indexes → Searches, Dashboards, Alerts
 ```
+## Data Flow Diagram
+
+This diagram illustrates the path of telemetry as it leaves Sysmon, flows through the Universal Forwarder, and reaches Splunk Enterprise.
+
+![Data Flow Diagram](Data%20Flow%20Diagram.png)
 
 ## Components
 
