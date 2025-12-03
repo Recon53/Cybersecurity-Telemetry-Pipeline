@@ -14,6 +14,12 @@ Although the author is retired and not pursuing employment, this environment is 
 ## Architecture
 ![Architecture Diagram](Architecture%20Diagram.png)
 
+## Network Diagram
+
+This diagram shows the virtual network layout connecting VirtualBox, the Windows VM, Sysmon, the Universal Forwarder, the Ubuntu VM, and Splunk Enterprise.
+
+![Network Diagram](Network%20Diagram.png)
+
 High-level event flow:
 
 ```text
@@ -30,6 +36,12 @@ This diagram illustrates the path of telemetry as it leaves Sysmon, flows throug
 
 ![Data Flow Diagram](Data%20Flow%20Diagram.png)
 
+## Sysmon Event Lifecycle
+
+This diagram illustrates how a Windows event is generated, captured by Sysmon, forwarded by the Universal Forwarder, transmitted across the network, parsed and indexed by Splunk, and finally queried for analysis.
+
+![Sysmon Event Lifecycle](Sysmon%20Lifecycle%20Diagram.png)
+
 ## Components
 
 - **VirtualBox**: Hypervisor for both Windows and Ubuntu VMs.
@@ -45,6 +57,12 @@ This diagram illustrates the path of telemetry as it leaves Sysmon, flows throug
 - Practice digital forensics and incident response workflows.
 - Experiment with building detection logic in Splunk.
 - Use as a foundation for graduate projects or future research (e.g., ransomware profiling, anomaly detection).
+
+- ## SPL Query Pipeline (Optional)
+
+This diagram illustrates how Splunk processes SPL queries through parsing, optimization, dispatching, search pipelines, and visualization.
+
+![SPL Query Pipeline](SPL%20Query%20Pipeline.png)
 
 ## Folder Structure (suggested)
 
