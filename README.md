@@ -40,8 +40,7 @@ This diagram illustrates the path of telemetry as it leaves Sysmon, flows throug
 
 This diagram illustrates how a Windows event is generated, captured by Sysmon, forwarded by the Universal Forwarder, transmitted across the network, parsed and indexed by Splunk, and finally queried for analysis.
 
-![Sysmon Event Lifecycle](Sysmon_Lifecycle_Diagram.png)
-
+![Sysmon Event Lifecycle Diagram](Sysmon%20Event%20Lifecycle%20Diagram.png)
 ## Components
 
 - **VirtualBox**: Hypervisor for both Windows and Ubuntu VMs.
@@ -61,8 +60,7 @@ This diagram illustrates how a Windows event is generated, captured by Sysmon, f
 - ## SPL Query Pipeline (Optional)
 
 This diagram illustrates how Splunk processes SPL queries through parsing, optimization, dispatching, search pipelines, and visualization.
-![SPL Query Pipeline](SPL_Query_Pipeline.png)
-
+![SPL Query Pipeline Diagram](SPL%20Query%20Pipeline%20Diagram.png)
 
 ## Folder Structure (suggested)
 
