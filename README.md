@@ -1,3 +1,6 @@
+📄 **PDF version available:**  
+[Download README.pdf](README.pdf)
+
 # Cybersecurity Telemetry Pipeline
 <!-- Badges -->
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
