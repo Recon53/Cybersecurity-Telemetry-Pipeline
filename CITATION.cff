@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Cybersecurity Telemetry Pipeline"
+version: "1.0"
+date-released: 2026-01-08
+type: software
+
+authors:
+  - family-names: Guadalupe
+    given-names: Miguel
+
+abstract: >
+  A Windows → Sysmon → Splunk cybersecurity telemetry pipeline
+  designed for graduate-level coursework, lab demonstrations,
+  and exploratory research.
+
+keywords:
+  - cybersecurity
+  - telemetry
+  - sysmon
+  - splunk
+  - digital forensics
+  - host-based monitoring
+
+repository-code: "https://github.com/Recon53/Cybersecurity-Telemetry-Pipeline"
+license: MIT
